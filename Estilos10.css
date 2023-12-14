@@ -1,0 +1,571 @@
+header, section, footer {
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {
+    height: 200px;
+    background: -webkit-linear-gradient(top, #c5c7a3 70%, #b5b487)
+
+}
+#Titulo {
+    height: 80px;
+    width: 400px;
+    float: left;
+    margin: 10px
+}
+
+#Titulo h1 {
+    font-family: Anton, sans-serif;
+    color: #877e4f;
+    font-weight: bolder;
+    font-size: xx-large;
+    float:right;
+    text-align: center;
+    line-height: 60px;
+}
+#Titulo p {
+    font-family: Anton, sans-serif;
+    color: #877e4f;
+    font-weight: bolder;
+    font-size: medium;
+    float:right;
+    text-align: center;
+    margin-left: 60px;
+
+}
+
+#Navegacion {
+    width: 600px;
+    height: 80px;
+    background-color: none;
+    float:right;
+    margin-top: 35px;
+    margin-right: 35px;
+
+}
+
+#Navegacion li{
+    display: inline;
+    text-align: center;
+   
+ }
+ #Navegacion li a{
+     display: inline-block;
+     width: 120px;
+     height: 35px;
+     padding: 8px;
+     background-color: rgb(133, 122, 90, 0.8);
+     color: #413e35;
+     border-radius: 5px;
+     font-family: Anton, sans-serif;
+     font-weight:bold;
+ }
+    
+
+section{
+    height: 600px;
+    background-color: #b5b487
+}
+
+.Contenido_1 {
+    width: 100px;
+    height:450px;
+    background-color: #b5b487; 
+    float: left;
+
+}
+.Contenido_2 {
+    width: 1000px;
+    height:450px;
+    background-color: #b5b487; 
+    float: left;
+    background: url(pizza-de-masa-madre-7.jpg);
+    background-size:cover;
+    background-position: center;
+    border-radius: 25px;
+    position:relative;
+  
+    
+
+}
+.Contenido_2 h1{
+    font-family: Anton, sans-serif;
+    color: #302f29;
+    font-size: x-large;
+    font-weight:bold;
+    text-align:justify;
+    position:absolute;
+    bottom:0;
+    left: 10px;
+    background-color: rgba(197, 199, 163, 0.6);
+    border-radius: 15px;
+    
+}
+.Contenido_3 {
+    width: 100px;
+    height:450px;
+    background-color: #b5b487; 
+    float: left;
+
+}
+.Contenido_4 {
+    width: 50px;
+    height:100%;
+    background-color: #b5b487; 
+    float: left;
+
+}
+
+
+.Contenido_5 {
+    width: 650px;
+    height:100%;
+    background-color: #b5b487; 
+    float: left;
+   
+    
+
+}
+.Contenido_5 h1 {
+    font-family: Anton, sans-serif;
+    color: #302f29;
+    font-size: x-large;
+    font-weight:bold;
+    text-align:justify;
+
+
+}
+.Contenido_5 p {
+    font-family: Anton, sans-serif;
+    color: #302f29;
+    font-size: medium;
+    font-weight:bold;
+    text-align:justify;
+    font-style: italic;
+    text-shadow: #b5b487;
+
+
+}
+
+
+.Contenido_6 {
+    width: 500px;
+    height:100%;
+    background-color: #b5b487; 
+    float: left;
+    background: url(pizzero-removebg-preview.png) no-repeat content-box;
+
+  
+
+}
+
+#cont_js2 {
+    background-color: #877e4f;
+    text-align: center;
+    margin-top: 400px;
+    font-family: Anton, sans-serif;
+    color: #302f29;
+    font-size: large;
+    font-weight:bold;
+    border-radius: 25px;
+
+}
+
+#Seccion_3 {
+    height: 400px;
+    
+}
+
+#Seccion_3 h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 30px;
+  }
+#Seccion_4 {
+    height: 660px;
+}
+.Contenido_7 {
+    width: 400px;
+    height:400px;
+    background-color: #302f29; 
+    float: left;
+
+}
+.Contenido_8 {
+    width: 400px;
+    height:400px;
+    background-color: #302f29; 
+    float: left;
+
+}
+.Contenido_9 {
+    width: 400px;
+    height:400px;
+    background-color: #302f29; 
+    float: left;
+
+}
+.row h5 {
+    display: inline-block;
+    color: #302f29; 
+    font-weight: bold;
+    background-color: rgba(197, 199, 163, 0.6)
+}
+
+.row p {
+    color: #302f29; 
+    font-weight: bold;
+    background-color: rgba(197, 199, 163, 0.6)
+
+}
+
+.form {
+    width: 500px;
+    font-family: Anton, sans-serif;
+    color: #302f29;
+    font-weight: bold;
+    background-color: #b5b487;
+}
+footer {
+    height: 120px;
+    background-color: #c5c7a3;
+
+}
+#Datos {
+    width: 500px;
+    height: 120px;
+    background-color: #382e23;
+    float:left;
+    
+}
+#Datos p{
+    font-family: Vernon Adams, sans-serif;
+    color: #b7b592;
+    text-align: justify;
+    margin-left: 15px
+}
+#Links_redes {
+    width: 700px;
+    height:120px;
+    background:-webkit-linear-gradient(right,#5d4f37 50%, #382e23);
+    float: right;
+    
+
+}
+#Botonera{
+    margin: 25px;
+    padding: 20px;
+    list-style-type: none;
+
+}
+#Botonera li{
+   display: inline;
+   text-align: center;
+  
+}
+#Botonera li a{
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    padding: 8px;
+    background-color: rgb(133, 122, 90, 0.8);
+    color: #413e35;
+    border-radius: 5px;
+    font-family: Anton, sans-serif;
+    font-weight:bold;
+}
+/*inicio media 1200*/ 
+
+@media all and (min-width: 600px) and (max-width: 1200px) {
+    header, section, footer {
+        width: 590px;
+        
+    }
+    
+    header {
+        height: 200px;
+    
+    }
+    
+    #Titulo h1 {
+        font-size: x-large;
+       
+    }
+    
+        
+    #Titulo p {
+        font-size: medium;
+        
+
+    }
+
+    #Navegacion {
+        width: 500px;
+        height: 80px;
+        float:right;
+
+    
+    }
+    
+    #Navegacion li{
+        display: inline;
+        text-align: center;
+       
+     }
+     #Navegacion li a{
+         display: inline-block;
+         width: 120px;
+         height: 25px;
+         padding: 8px;
+         font-family: Anton, sans-serif;
+         font-weight:bold;
+     }
+
+    section{
+        height: 600px;
+    
+    }
+    
+    .Contenido_1 {
+        width: 45px;
+        height:450px;
+        
+    
+    }
+    .Contenido_2 {
+        width: 500px;
+    
+    }
+    .Contenido_2 h1{
+        font-size: medium;   
+    }
+    .Contenido_3 {
+        width: 45px;
+        height:450px;
+    }
+    .Contenido_4 {
+        width: 45px;
+    
+    }
+    .Contenido_5 {
+        width: 500px;
+
+    
+    }
+    .Contenido_6 {
+        width: 45px;
+      
+    }
+    .Contenido_7 {
+        width: 95px;
+
+    
+    }
+    .Contenido_8 {
+        width: 400px;
+        height:600px;
+
+    
+    }
+    .Contenido_9 {
+        width: 95px;
+
+    
+    }
+    footer {
+        height: 120px;
+        background-color: #c5c7a3;
+    
+    }
+    #Datos {
+        width: 590px;
+        height: 120px;
+        background-color: #382e23;
+        float:left;
+        
+    }
+    #Datos p{
+        font-size:small;
+        height:auto;
+    }
+    #Links_redes {
+        width: 590px;
+        height:100px;
+        background: url(pan.png) right no-repeat, -webkit-linear-gradient(right,#5d4f37 50%, #382e23);
+        float: right;
+        
+    
+    }
+    #Botonera{
+        margin: 25px;
+        padding: 20px;
+        list-style-type: none;
+    
+    }
+    #Botonera li{
+       display: inline;
+       text-align: center;
+      
+    }
+    #Botonera li a{
+        width: 80px;
+        height: 25px;
+    }
+}
+    
+/*Inicio media 599*/
+
+@media all and (max-width: 599px) {
+    header, section, footer {
+        width: 100%;
+        height: auto;
+    }
+    
+    #Titulo {
+        width: 100%;
+        height: auto;
+        height: auto;
+        float: none;
+    }
+    
+    #Titulo h1 {
+        font-weight: bolder;
+        font-size: medium;
+        float:none;
+       
+    }
+        
+    #Titulo p {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+
+    #Navegacion {
+        width: 100%;
+        float: none;
+        
+    
+    }
+    
+    #Navegacion li a{
+        width: 60%;
+        height: 20px;
+        font-size: small;
+        display:block;
+        padding: 5px;
+        float:none;
+
+    }
+    
+    section{
+        width: 100%;
+        height: auto;
+
+    }
+    
+    .Contenido_1 {
+        width: 100%;
+        height:auto;
+        float: none;
+    
+    }
+    .Contenido_2 {
+        width: 100%;
+        float: none;
+    
+    }
+    .Contenido_2 h1{
+        font-size: medium;
+        
+    }
+    .Contenido_3 {
+        width: 100%;
+        height:auto;
+        float: none;
+    
+    }
+    .Contenido_4 {
+        width: 100%;
+        height:auto;
+        float: none;
+    
+    }
+    .Contenido_5 {
+        width: 100%;
+        height:auto;
+        float: none;
+    
+    }
+    .Contenido_6 {
+        width: 100%;
+        height:auto;
+        float: none;
+    
+    }
+
+    #Seccion_3 {
+        width: 100%;
+        height: auto;
+    }
+    .Contenido_7 {
+        width: 100%;
+        float: none;
+    
+    }
+    .Contenido_8 {
+        width: 100%;
+        float: none;
+    
+    }
+    .Contenido_9 {
+        width: 100%;
+        float: none;
+    
+    }
+    #Seccion_4 {
+        width: 100%;
+        height: 1200px;
+    }
+    .form {
+        width: 100%;
+        float: none;
+    }
+    
+    footer {
+        float: none;
+
+    
+        
+    
+    }
+    #Datos {
+        width: 100%;
+        float:none;
+        font-size: small;
+        height: auto;
+        
+    }
+ 
+    #Links_redes {
+        width: 100%;
+        float: none;
+        height: auto;
+        
+    
+    }
+    
+    #Botonera li a {
+        width: 60%;
+        height: 20px;
+        font-size: small;
+        display:block;
+        padding: 5px;
+        float:none;
+    }
+}
